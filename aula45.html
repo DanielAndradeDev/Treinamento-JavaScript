@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Teste</title>
+    </head>
+    <body>
+        <script>
+            class curso{
+                constructor(Materia,Professor,duraçao){
+                    this.Materia = Materia,
+                    this.Professor =Professor,
+                    this.duraçao =duraçao
+                }
+                get Prof(){
+                    return this.duraçao +"\n" + this.Materia + "\n" + this.Professor
+                }
+                
+                class curso2{
+                constructor(Materia,Professor,duraçao){
+                    this.Materia = Materia,
+                    this.Professor =Professor,
+                    this.duraçao =duraçao
+                }
+                get Prof2(){
+                    return this.duraçao +"\n" + this.Materia + "\n" + this.Professor
+                }    
+            }
+            let poo = new curso('Programação orientado e objeto','giorgio','1 semestre');
+            let poo2 = new curso2 ()
+            console.log(poo.Prof);
+        </script>
+
+    </body>
+</html>

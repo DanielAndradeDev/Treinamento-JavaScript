@@ -1,0 +1,39 @@
+o que seria um evento ? seria as açoes no caso o java script estaria executando ao clicar ao mover 
+<div é o que ? é um quadrado 
+<body é nosso corpo do nosso HTML ou seja trabalhamos quase tudo dentro do nosso body
+
+as linguagem pricipais que vai no site web sao?
+HTML
+Java Script -
+Css  
+
+vetor- trabalha com linhas
+como funciona o nosso CSS como usar ele ?
+<style> </style> ele chama o nosso CSS
+começamos com um # o que significa o #? ele é um id  eo Ponto é nossa classe no css conseguimos mexer no visual 
+static - vai deixar a imagem parada mas vai se mover com a pagina
+fixed - quando voce move ele vai continuar no mesmo lugar 
+height: ;- trabalhos com porcentagem e pixel 
+background-color: ;- é pra mudar a cor do meu background 
+width: ; - é nossa largura
+padding - é para ajustar nosso quadrado 
+position - define a posisao dele
+
+qual a diferença do meu id para minha classe ?
+id - eu posso usar um unico nome ex: eu tenho 2 id com o teme teste eu n consigo adicionar os dois dentro do meu <p> 
+classe - voce consegue executar variais coisas dentro do meu <p> ou dentro da minha div utilizando a classe
+
+pra cada item que eu for fazer eu tenho q colocar o id dentro da div colocar a alteraçao que eu quero q esse id sofra 
+no caso nosso id é o nosso #
+
+nosso Dom é o nosso document nosso dom tudo da nossa pagina 
+
+Metodo -um metodo precisa de um retorno 
+ Funçao -uma funçao nao precisa de uma retorno 
+
+
+montar um formulario 
+<p>nome</p>input
+colcoar cor 
+
+

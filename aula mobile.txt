@@ -1,0 +1,17 @@
+CSS - nosso visual nosso designer cor da letra e etc
+JavaScript - ele domina essas 3 linguagem ele fala como vai funcionar HTML,XML,CSS no javaScript eu consigo pegar varias informaçoes 
+
+JavaScript - O javaScript nao é tipado 
+
+
+DOM- é o elemento de estrutura do nosso HTM a partir do DOM conseguimos ligar nosso javaScript ao nosso HTM no DOM eu faço todo tipo de mudança no nosso HTML 
+
+HTML - estrutura do nosso site 
+XML- modifica 
+
+Console.log (a); - ele paga o valor da variavel e imprimi 
+
+debugar -  é fazer uma analisa do que esta acontecendo em cada linha 
+
+const - é um variavel constante uma variavel costante ela nao muda o valor dessa variavel nao pode mudar ele garante para vc que o valor nao vai ser alterado 
+

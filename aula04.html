@@ -1,0 +1,31 @@
+
+
+<html>
+
+<head>
+    <title>Daniel04</title>
+
+<body>
+    <div class="exemplo">
+        um elemento div com classe="exemplo"
+    </div>
+    <div class="exemplo">
+        outro elemento div com classe = "exemplo"
+    </div>
+    <p class="exemplo">
+        um elemento p com class ="exemplo"
+    </p>
+    <p> click no botao para descobrir quantos elementos com a classe "exemplo" existem.</p>
+    <button onclick="myfunction()">Clique aqui</button>
+    <p id="mostrar"></p>
+    <script>
+        function myfunction(){
+            let x = document.getElementsByClassName('exemplo');
+            document.getElementById("mostrar").innerHTML =x.length;
+        }
+    </script>
+
+</body>
+</head>
+
+</html>

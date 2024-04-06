@@ -1,0 +1,18 @@
+cdn vc vai pegar no servidor do boostrap se acontecer de ter alguma alteraçao no site automaticamente vai mudar no seu projeto 
+agora se ele tiver local na sua maquina nao tera alteraçoes 
+
+links : https://fontawesome.com/icons
+
+links : https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+Cliente: vamos colocar que a amazon é o outro cliente eo roberto vai sempre na amazon 
+o roberto tem a aplicaçao dele o que ele faz ele 
+
+todo sistema que eu quero acessar atravez de uma API eu vou usar o endpoint 
+quero ver as config do bps eu vou usar o endpoit
+o que é um endpoint ? 
+ele é um endereço 
+
+quando falamos de endpoit estamos falando de delete , put , get
+
+

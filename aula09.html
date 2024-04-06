@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>
+        Daniel aula 09
+    </title>
+</head>
+
+<body>
+    <button> Click para mudar a cor </button>
+    <script>
+        let btn = document.querySelector('button');
+        function random (number){
+            return Math.floor(Math.random()*(number+1))
+        }
+        btn.onclick = function(){
+            let rndCol = 'rgb ('+ random(255) + ',' + random(255) + ',' + random(255) + ')';
+            document.body.style.backgroundColor = rndCol;
+             console.log(rndCol);
+            //  window.alert(rndCol);
+            //  alert(rndCol);
+        }
+    </script>
+</body>
+
+</html>

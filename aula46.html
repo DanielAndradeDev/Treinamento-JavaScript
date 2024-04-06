@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+Treinamento
+        </title>
+    </head>
+    <body>
+        <script>
+            class Boletim{
+
+                    constructor(participacao,prova,trabalho){
+                        this.participacao=participacao,
+                        this.prova=prova,
+                        this.trabalho=trabalho
+                    
+                    }
+                    get media(){
+                        return parseInt((this.participacao + this.prova + this.trabalho)/3);
+                    }
+            }
+            let BoletimSemestral = new Boletim(6,9,7.5);
+            console.log(BoletimSemestral.media);
+        </script>
+    </body>
+</html>

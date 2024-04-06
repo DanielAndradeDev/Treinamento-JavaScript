@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>
+            Usando evento no javaScript
+        </title>
+    </head>
+    <body onload="checkCookies()">
+<p>Vai aparecer um alert dizendo se os cookies estao ou nao Liberados em seu navegador.</p>
+<script>
+    function checkCookies(){
+        if(navigador.cookiesEnabled === true){
+            alert("Cookiees Sao permitidos");
+        }else{
+            alert("Cookies nao sao permitidos");
+        }
+    }
+</script>
+    </body>
+</html>

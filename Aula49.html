@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Salario</title>
+    </head>
+    <body>
+        <script>
+            let salariobruto = 5000;
+            let salarioliquido;
+            // quando pensamos em get estamos enviando dados como se fosse uma consulta
+            getSalario(salariobruto,(resultado) =>
+            // o => é usado para chamar a Function 
+             {salarioliquido = resultado;
+                console.log(`O Salario Liquido é ${salarioliquido}`)
+            })
+            function getSalario (salariobruto,callback){
+ // o callback vai enviar um valor e vai querer a resposta depois ele envia para proxima funçao
+                let liquido = 0;
+                const inss = salariobruto * 0.11; 
+                const vr = salariobruto * 0.05;
+                const vt = salariobruto * 0.06;
+                const fgts = salariobruto * 0.15;
+                const desconto = inss + vr + vt + fgts;
+                liquido = salariobruto - desconto;
+                // somamos todos os nossos descontos que tem em um unico item 
+                return callback(liquido);
+                // no retorno esta esperando o callback
+
+
+                // cada const recebe um valor e no final esse valor nao pode ser alterado 
+            }
+           
+            
+            // constant é um valor que nao pode ser alterado
+            
+
+
+        </script>
+    </body>
+</html>

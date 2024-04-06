@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Daniel aula3</title>
+    </head>
+    <body>
+        <h1>Metodo getElementByTagName()</h1>
+        <h1>Primeiro titulo</h1>
+        <p>Primeiro paragrafo</p>
+        <h3>Segundo titulo</h3>
+        <p>Segundo paragrafo</p>
+        <h3>Terceiro Titulo</h3>
+        <p>Terceiro paragrafo</p>
+        <h2>Terceiro Titulo</h2>
+        <button id="btnContar">Contar h3</button>
+        <script>
+            let btn=document.getElementById('btnContar');
+            btn.addEventListener('click',()=>{
+                let contagem = document.getElementsByTagName('h3');
+                alert(`O total de tags no h3: ${contagem.length}`)
+            });
+            
+        </script>
+    </body>
+</html>

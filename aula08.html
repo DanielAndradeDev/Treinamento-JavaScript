@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>
+        Daniel aula08
+    </title>
+</head>
+<style>
+    #teste {
+
+        background-color:aqua;
+        width: 190px;
+        height: 50%;
+        padding: 20px;
+    }
+
+    #teste01 {
+position: relative;
+left: 50%;
+background-color: yellow;
+width: 80px;
+height: 50%;
+padding: 20px;
+}
+</style>
+
+<body>
+    <div id="teste"onmousedown="mdown(this)" onmouseup="mup(this)">Testando</div>
+    <div id="teste01"onmouseover="mover(this)"onmouseout"mout(this)">Testando</div>
+
+
+    <script>
+        function mover(obj){
+            obj.innerHTML="obrigado";
+        }
+        function mout(obj){
+            obj.innerHTML="Clique aqui";
+        }
+        function mdown(obj) {
+            obj.style.background ="#1ec5e5";
+            obj.innerHTML = "Solte e clique";
+        }
+        function mup(obj) {
+            obj.innerHTML = "Passe o mouse aqui!";
+            obj.innerHTML = "obrigado";
+
+        }
+
+    </script>
+</body>
+
+</html>
+
+<!-- criei minha funçao ao mover o mouse -->
+<!-- onmouseover="mOver" -->

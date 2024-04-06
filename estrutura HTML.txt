@@ -1,0 +1,28 @@
+                                      html          
+                                  
+                                head                   body
+                           title  meta meta         h1  p  ul
+                                                        a   li  li  li
+
+Para montar uma estrutura no seu HTML vc faz como ?
+Primeiro vc abre seu html depois vou abre seu head depois vc abre seu title depois vc abre seu Body o corpo do html
+
+Com o doom vc consegue manipular o sistema inteiro vc consegue mexer em toda estrutura do seu Projeto 
+
+Com o doom vc consegue manipular o sistema inteiro vc consegue mexer em toda estrutura do seu Projeto 
+// temos alguns comandos para nos usarmos nosso dom no Javascript temos elementos para usar o dom 
+// getElementById ele vai trazer pra vc um elemento de um Dom sua pagina inteira que vc pode manipular
+começou com ponto é uma classe 
+interpolar e vc extrair um valor e adicionar dentro de um texto esse valor é colocado dentro de uma chave 
+colocando uma variavel entre chaves isso chamamos de interpulaçao 
+Div - é usada para colocar cor colocar janelas 
+aula03HTML no alert tem uma interpulaçao no final
+java Script nao precisa de compilaçao a web ja executa ele é uma linguagem leve 
+java é um aplicativo executado voce tem que instalar ele 
+
+
+
+
+
+
+                          

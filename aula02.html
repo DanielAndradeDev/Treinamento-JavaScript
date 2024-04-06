@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lula no Poder</title>
+    </head>
+    <body>
+        <p>Avalie o atendimento</p>
+        <p>
+            <input type="radio" name="aval"value ="Muito insatisfatorio">
+            Muito insatisfatorio<br/>
+            <input type="radio" name="aval"value ="Muito insatisfeito">
+            Muito insatisfeito<br/>
+            <input type="radio" name="aval"value ="Bom">
+            bom<br/>
+            <input type="radio" name="aval"value ="satisfeito">
+            satisfeito<br/>
+            <input type="radio" name="aval"value ="Muito satisfeito">
+            Muito satisfeito<br/>
+        </p>
+        <p>
+            <button id="btnAvalia">Enviar </button>
+        </p>
+        <script>
+   let btn = document.getElementById('btnAvalia');
+            btn.addEventListener('click',()=>{
+                let avaliaçoes = document.getElementsByName('aval');
+                avaliaçoes.forEach((aval)=>{
+                    if (aval.checked){
+                        alert(`Sua avaliaçao:${aval.value}`);
+                    }
+                });
+            });
+
+
+            /*
+            let btn = document.getElementById('btnAvalia');
+            btn.addEventListener('click',()=>{
+                let avalicoes = document.getElementsByName('aval');
+                avalicoes.forEach((aval)=>{
+                    if(aval.checked){
+                        alert(`Sua avalição: ${aval.value}`);
+                    }
+                });
+            });
+    */      
+        </script>
+    </body>
+</html>

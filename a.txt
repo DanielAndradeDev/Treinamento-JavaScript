@@ -1,0 +1,12 @@
+operadores logico : ou || um dos lados tem que dar falso 
+prompt- ele abre uma janela dentro dessa janela que ele abrir é um campo de texto 
+para criar uma condiçao vc usa o switch(){}
+default- se nao der nada certo ele vai ser executado
+identaçao - Shift + alt + F
+
+dowhile primeiro ele executa depois ele verifica 
+
+quando é q eu vou trabalhar com a matriz 
+
+
+

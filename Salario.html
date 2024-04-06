@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <div id="txt2"></div>
+<div id="txt1"></div>
+
+ <form action=" ">
+   <input type="text" id="name" name="name">
+   <input type="button" onclick="calcular()" value="calcular">
+</form>
+
+ <script>
+
+function calcular(){
+  var input = document.querySelector("#name");
+  var tes = input.value;
+       let salarioBruto = tes;
+       let salarioLiquido;
+       let sldesconto;}
+       
+       getSalario(salarioBruto,(resultado,desconto) => {
+              salarioLiquido = resultado;
+              sldesconto = desconto;
+              document.getElementById('txt1').innerHTML = "Desconto:" + sldesconto;
+              document.getElementById('txt2').innerHTML = "Salario Liquido:" + sldesconto;
+              document.getElementById('sss').innerHTML = "Desconto:" + sldesconto;
+            });
+            function getSalario , salarioBruto, callback){
+                let liquido = 0;
+                const inss = salariobruto * 0.11; 
+                const vr = salariobruto * 0.05;
+                const vt = salariobruto * 0.06;
+                const fgts = salariobruto * 0.15;
+                const desconto = inss + vr + vt + fgts;
+                liquido = salarioBruto - desconto;
+                return callback ,liquido,desconto);
+            }
+            <script>
+    </body>
+</html>
